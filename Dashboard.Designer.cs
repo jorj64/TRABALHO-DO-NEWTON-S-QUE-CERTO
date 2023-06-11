@@ -115,6 +115,7 @@
             emitirLivrosToolStripMenuItem.Name = "emitirLivrosToolStripMenuItem";
             emitirLivrosToolStripMenuItem.Size = new Size(134, 54);
             emitirLivrosToolStripMenuItem.Text = "Emitir Livros";
+            emitirLivrosToolStripMenuItem.Click += emitirLivrosToolStripMenuItem_Click;
             // 
             // devolverLivrosToolStripMenuItem
             // 

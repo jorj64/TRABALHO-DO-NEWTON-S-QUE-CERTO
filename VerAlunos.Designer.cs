@@ -278,6 +278,7 @@
             Controls.Add(label2);
             Controls.Add(dataGridView1);
             Controls.Add(panel1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "VerAlunos";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "VerAlunos";

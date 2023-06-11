@@ -58,8 +58,14 @@ namespace Login
 
         private void verAlunosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-        VerAlunos vsi = new VerAlunos();
+            VerAlunos vsi = new VerAlunos();
             vsi.Show();
+        }
+
+        private void emitirLivrosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Emprestimo ib = new Emprestimo();
+            ib.Show();
         }
     }
 }
