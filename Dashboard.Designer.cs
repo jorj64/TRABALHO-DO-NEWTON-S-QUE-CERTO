@@ -134,6 +134,7 @@
             informaçõesDosLivrosToolStripMenuItem.Name = "informaçõesDosLivrosToolStripMenuItem";
             informaçõesDosLivrosToolStripMenuItem.Size = new Size(191, 54);
             informaçõesDosLivrosToolStripMenuItem.Text = "Informações dos Livros";
+            informaçõesDosLivrosToolStripMenuItem.Click += informaçõesDosLivrosToolStripMenuItem_Click;
             // 
             // sairToolStripMenuItem
             // 

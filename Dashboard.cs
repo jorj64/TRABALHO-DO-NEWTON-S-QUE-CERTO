@@ -73,5 +73,11 @@ namespace Login
             DevolverLivro DV = new DevolverLivro();
             DV.Show();
         }
+
+        private void informaçõesDosLivrosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            InfoLivros info = new InfoLivros();
+            info.Show();
+        }
     }
 }
