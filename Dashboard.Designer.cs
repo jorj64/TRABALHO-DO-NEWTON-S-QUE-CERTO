@@ -125,6 +125,7 @@
             devolverLivrosToolStripMenuItem.Name = "devolverLivrosToolStripMenuItem";
             devolverLivrosToolStripMenuItem.Size = new Size(149, 54);
             devolverLivrosToolStripMenuItem.Text = "Devolver Livros";
+            devolverLivrosToolStripMenuItem.Click += devolverLivrosToolStripMenuItem_Click;
             // 
             // informaçõesDosLivrosToolStripMenuItem
             // 

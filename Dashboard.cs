@@ -67,5 +67,11 @@ namespace Login
             Emprestimo ib = new Emprestimo();
             ib.Show();
         }
+
+        private void devolverLivrosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DevolverLivro DV = new DevolverLivro();
+            DV.Show();
+        }
     }
 }
