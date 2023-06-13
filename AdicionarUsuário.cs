@@ -42,7 +42,7 @@ namespace Login
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            if (txtNome.Text != "" && txtMatrícula.Text != "" && txtEndereço.Text != "" && txtTelefone.Text != "")
+            if(txtNome.Text != "" && txtMatrícula.Text != "" && txtEndereço.Text != "" && txtTelefone.Text != "")
             {
 
                 String Nome = txtNome.Text;

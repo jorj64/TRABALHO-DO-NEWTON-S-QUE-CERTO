@@ -69,7 +69,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.Highlight;
-            label1.Location = new Point(539, 53);
+            label1.Location = new Point(543, 53);
             label1.Name = "label1";
             label1.Size = new Size(224, 30);
             label1.TabIndex = 1;
@@ -145,6 +145,7 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(967, 284);
             panel2.TabIndex = 5;
+            panel2.Paint += panel2_Paint;
             // 
             // txtNPublicação
             // 

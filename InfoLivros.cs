@@ -37,5 +37,10 @@ namespace Login
             da1.Fill(ds1);
             dataGridView2.DataSource = ds1.Tables[0];
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

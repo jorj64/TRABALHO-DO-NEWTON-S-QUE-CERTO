@@ -106,7 +106,7 @@
             button1.BackColor = Color.Cyan;
             button1.FlatStyle = FlatStyle.Popup;
             button1.Font = new Font("Calibri", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(67, 309);
+            button1.Location = new Point(67, 312);
             button1.Name = "button1";
             button1.Size = new Size(193, 32);
             button1.TabIndex = 7;

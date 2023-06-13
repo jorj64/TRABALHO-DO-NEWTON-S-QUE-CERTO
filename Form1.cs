@@ -99,12 +99,25 @@ namespace Login
             DataSet ds = new DataSet();
             da.Fill(ds);
 
+            cmd.CommandText = "select * from LoginAlunos where Aluno = '" + txtUsername.Text + "' and Senha = '" + txtPassword.Text + "'";
+            SqlDataAdapter da1 = new SqlDataAdapter(cmd);
+            DataSet ds1 = new DataSet();
+            da1.Fill(ds1);
+
             if (ds.Tables[0].Rows.Count != 0)
             {
                 Dashboard frm = new();
                 frm.ShowDialog();
                 this.Hide();
             }
+
+            else if (ds1.Tables[0].Rows.Count != 0)
+            {
+                Dashboardaluno frm = new();
+                frm.ShowDialog();
+                this.Hide();
+            }
+
             else
             {
                 MessageBox.Show("Usuário ou senha incorreto.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
